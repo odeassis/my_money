@@ -1,5 +1,6 @@
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
+import { Search } from "./components/Search";
 import {
   TransactionContainerTable,
   TransactionTable,
@@ -13,6 +14,7 @@ export function Transactions() {
       <Summary />
 
       <TransactionContainerTable>
+        <Search />
         <TransactionTable>
           <tr>
             <td>Desenvolvimento de site</td>
